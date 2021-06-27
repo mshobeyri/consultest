@@ -1,0 +1,13 @@
+syntax = "proto3";
+package test;
+
+option go_package = "roundax.com/pb";
+
+message Message{
+    string text = 1;
+    int32 number =2;
+}
+
+service Counting{
+    rpc GetMessage(Message) returns (Message) {}
+}

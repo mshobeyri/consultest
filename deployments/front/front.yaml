@@ -53,4 +53,4 @@ spec:
           name: http
         env:
         - name: SERVER_ADDR
-          value: "http://localhost:8090"
+          value: "localhost:8090"
