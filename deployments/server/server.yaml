@@ -23,7 +23,7 @@ kind: ServiceDefaults
 metadata:
   name: counting
 spec:
-  protocol: "http"
+  protocol: "grpc"
 ---
 apiVersion: apps/v1
 kind: Deployment
